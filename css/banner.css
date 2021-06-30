@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.89);
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    animation: modal 1s 2s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.contenido-banner{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+
+    /* background: white; */
+    border-radius: 10px;
+}
+
+.contenido-banner img{
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+
+#cerrar{
+    display: none;
+}
+
+#cerrar + label .x{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    z-index: 50;
+    background: darkred;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    right: 10px;
+    cursor: pointer;
+    position: fixed;
+
+    animation: modal 1s 2s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modal{
+    display: none;
+}
+@keyframes modal{
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}

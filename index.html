@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Impacto 99.9</title>
+    <link rel="shortcut icon" href="img/Icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="fonts/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+    
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="img/LogoWP.png" alt="" class="logo">
+        <div class="animate__animated animate__bounceInDown slider-portada">
+            <ul>
+                <li><img src="img/Portada/portada_1.jpg" alt=""></li>           
+                <li><img src="img/Portada/portada_2.jpg" alt=""></li>
+                <li><img src="img/Portada/portada_3.jpg" alt=""></li>
+                <li><img src="img/Portada/portada_4.jpg" alt=""></li>
+                <li><img src="img/Portada/portada_5.jpg" alt=""></li>
+            </ul>
+        </div>
+        <img src="img/hamburguesa.svg" alt="" class="animate__animated animate__bounceIn hamburguer">   
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>         
+            <a href="#quienes_somos">Quienes Somos</a>
+            <a href="#programacion">Programación</a>
+            <a href="#trabajo">Galería</a>
+            <a href="#cotizacion">Mensajes</a>
+            <a href="#contacto">Contactos</a>
+            <p>✖</p>
+        </nav>
+       
+    </header>
+
+    
+
+    <main>   
+        <div class="animate__animated animate__slideInRight container" id="container">
+            <a id="btn_radio"><div class="ceja" id="radio"><div>En Vivo</div></div></a>
+            <audio src="http://stream.zeno.fm/nfqw0nhrbd0uv" type="audio/mp3" autoplay="autoplay" id="rep"></audio>
+            <div class="title"><marquee behavior="scroll" class="marquee" ><span>Estas Escuchando: </span><span id="Metadato" class="cc_streaminfo">Radio Impacto - La Poderosa</span></marquee></div>
+            <div class="cc_streaminfo album">
+                <img src="img/disco.png" alt="">
+            </div>
+                <a id="player">
+                    <div id="con-btn-play">
+                        <i class="icon-play2"></i>
+                    </div>
+                </a>
+            <div class="orden">
+                <input type="range" min="0" max="1" value="0.5" step="0.01" id="mislider" class="slider ">
+            </div>
+        </div>
+
+        <section class="facebook" id="facebook">
+            
+            <div class="contenedor">
+                <h2 class="subtitulo" id="p">SIGUENOS EN FACEBOOK</h2>
+                <div class="contenedor-facebook">
+                
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fradioimpactogda&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about contenedor" id="quienes_somos">
+            <h2 class="subtitulo" id="qs">¿QUIENES SOMOS?</h2>
+            <div class="contenedor-leyenda">
+                <img id="imagen_qs" src="img/Historia/Historia_1A.jpg" alt=""  class="imagen-leyenda">             
+                <div class="checklist-leyenda" id="leyenda">
+                    <div class="leyenda" id="leyenda">
+                        <h3 class="n-leyenda"><span class="letra">H</span>HISTORIA</h3>
+                        <p>Radio impacto 99.9 es una emisora enfocada en Noticias, Deportes y Música. Fue creada el 21 de octubre del año 2000. Su concesionario, el Lic. Holger Ricardo Ulloa Salazar, la primera Directora General fue Lic. Cecilia Rivadeneira Verdezoto y su actual directora general es la Lic. María Augusta Ulloa Rivadeneira.
+                            Los estudios se encuentran ubicados en la ciudad de Guaranda en la calle 9 de abril y Manuela cañizares y su planta de transmisión está en el cantón Chimbo, específicamente en la punta del “Cerro Susanga” a tres mil metros de altura sobre el nivel del mar.
+                            Radio Impacto se caracteriza por trabajar solo con periodistas profesionales y trabajar las 24 horas del día, los 365 días del año.
+                            </p>
+                    </div>
+                    <div class="leyenda">
+                        <h3 class="n-leyenda"><span class="letra">V</span>VISIÓN</h3>
+                        <p>Radio Impacto 99.9 será un medio de comunicación que se base en el SERVICIO A LA COMUNIDAD y que contribuya con su trabajo diario a mejorar el nivel de vida de la gente, todo esto manteniendo un trabajo 100% ético y profesional. 
+                            A medida que Radio Impacto crece, busca seguir consolidando su ética profesional, alcanzar más cobertura, y siempre conservar la credibilidad de su audiencia.</p>
+                    </div>
+                    <div class="leyenda">
+                        <h3 class="n-leyenda"><span class="letra">M</span>MISIÓN</h3>
+                        <p>Radio Impacto cada día informa a la colectividad, siempre con la verdad, a través de la investigación de las propias fuentes y permitiendo que todo individuo pueda expresar lo que piensa; entretiene con programación variada de música; orienta y educa a la comunidad en general. Además de ser un vínculo y un puente de acercamiento entre la ciudadanía y sus autoridades.
+                            Y sobre todo, mantiene la honestidad, responsabilidad y ética profesional.
+                            </p>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+
+        <section class="programacion" id="programacion">
+            <div class="contenedor">
+                <h2 class="subtitulo" id="p">NUESTRA PROGRAMACIÓN</h2>
+                <div class="contenedor-programacion" id="imagen_p">
+                    <img src="img/Programacion/Prog_1A.png" alt="" class="img-programacion">
+                    <img src="img/Programacion/Prog_2A.png" alt="" class="img-programacion">
+                    <img src="img/Programacion/Prog_3A.png" alt="" class="img-programacion">
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </section>    
+
+       
+        <section class="trabajando" id="trabajando">
+            <div class="contenedor">
+                <h2 class="subtitulo" id="trabajo">GALERIA</h2>
+                <div class="slider-trabajo-contenedor" id="galeria">
+                    <div class="slider-manual fade fade">
+                        <img src="img/Galeria/galeria_1.jpg" alt="">
+                    </div>
+                    <div class="slider-manual fade">
+                        <img src="img/Galeria/galeria_2.jpg" alt="">
+                    </div>
+                    <div class="slider-manual fade">
+                        <img src="img/Galeria/galeria_3.jpg" alt="">
+                    </div>
+                    <div class="slider-manual fade">
+                        <img src="img/Galeria/galeria_4.jpg" alt="">
+                    </div>
+                    <div class="slider-manual fade">
+                        <img src="img/Galeria/galeria_5.jpg" alt="">
+                    </div>
+                    <div class="slider-manual fade">
+                        <img src="img/Galeria/galeria_6.jpg" alt="">
+                    </div>
+                    <div class="slider-manual fade">
+                        <img src="img/Galeria/galeria_7.jpg" alt="">
+                    </div>
+                    <div class="slider-manual fade">
+                        <img src="img/Galeria/galeria_8.jpeg" alt="">
+                    </div>
+                    <div class="slider-manual fade">
+                        <img src="img/Galeria/galeria_9.jpg" alt="">
+                    </div>
+                    <div class="direcciones">
+                        <a class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                        <a class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+                    </div>
+                    <div class="barras">
+                        <span class="barra-trabajo active" onclick="posicionSlide(1)"></span>
+                        <span class="barra-trabajo" onclick="posicionSlide(2)"></span>
+                        <span class="barra-trabajo" onclick="posicionSlide(3)"></span>
+                        <span class="barra-trabajo" onclick="posicionSlide(4)"></span>
+                        <span class="barra-trabajo" onclick="posicionSlide(5)"></span>
+                        <span class="barra-trabajo" onclick="posicionSlide(6)"></span>
+                        <span class="barra-trabajo" onclick="posicionSlide(7)"></span>
+                        <span class="barra-trabajo" onclick="posicionSlide(8)"></span>
+                        <span class="barra-trabajo" onclick="posicionSlide(9)"></span>
+                    </div>
+                </div>
+            </div>
+                
+           
+        </section>
+
+        <section class="cotizacion" id="cotizacion">
+            <div class="contenedor">
+                <h3 class="subtitulo">ENVIANOS UN MENSAJE</h3>                            
+                <p>El equipo de Impacto revisará tu mensaje, solo llena el formulario que esta debajo y presiona el botón Enviar</p>
+                <form action="correos.php" method="POST">
+                    <div class="form">
+                        <div class="grupo">
+                            <input type="text" name="nombre" id="" required><span class="barra"></span>
+                            <label>Nombre</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="email" name="email" id="" required><span class="barra"></span>
+                            <label>Email</label>
+                        </div>
+                        <div class="grupo">
+                            <textarea name="mensaje" id="" rows="3" required></textarea><span class="barra"></span>
+                            <label>Mensaje</label>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+        
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Radio Impacto</h2>
+                <h3>LA SUPER GRANDE DE BOLIVAR</h3>                
+                <p>Guaranda - Ecuador</p>
+                <p>Calle 9 de Abril #715 y Manuela Cañizares</p>
+                <p>☏ (03) 2550-400</p>
+            </div>
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/radioimpactogda" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-facebook-square' ></i>
+                </a>
+                <a href="https://www.instagram.com/radioimpacto99.9/" target="blank" class="social-media-icon">
+                    <i class='bx bxl-instagram-alt' ></i>
+                </a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%3Fapi%3D1%26destination%3D-1.5893751%252C-78.9985046%26fbclid%3DIwAR32MgptAEIXMYwgGgUxTc5pEWnkMBmQmH6Qpd7L6VRYfBkojFnL9gFn1Nk&h=AT2AArev_I0I_hn_aPM-8IMzKLQHwnapFHSknf9nAR84dV7b8IL-qOMKNDzcQ6IU83_avvcj1TiP42cs3zhDFf25zAiArLBkOkHXd6uEOOrvo3IpRCzR0vB7gnzqWxjDdxnulQ" target="blank" class="social-media-icon">
+                    <i class='bx bxs-location-plus'></i> 
+                </a>
+            </div>
+        </div>
+
+        <div class="line"></div>
+        <div class="creditos">
+            <h2 class="subtitulo">&copy; Radio Impacto 2021 | Desarrollado por: Nestor Chela (+593 960 175 021) </h2> 
+        </div>     
+    </footer>   
+    
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script
+	  src="https://code.jquery.com/jquery-2.2.4.min.js"
+	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+	  crossorigin="anonymous">	  	
+  	</script>
+  	<script type="text/javascript" src="js/bootstrap-slider.min.js"></script>
+	  <script type="text/javascript" src="js/audio.js"></script>
+      <script type="text/javascript" src="js/scroll.js"></script>
+      <script type="text/javascript" src="js/slider-manual.js"></script>
+    </script>  
+</body>
+</html>
