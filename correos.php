@@ -10,6 +10,6 @@
 
     mail($destinatario, $header, $mensajeCompleto);
     echo "<script>alert('Mensaje Enviado exitosamente')</script>";
-    echo "<script> setTimeout(\"location.href='https://nesch99.github.io/'\",1000)</script>";
+    echo "<script> setTimeout(\"location.href='https://nesch99.github.io/impacto999/'\",1000)</script>";
 ?>
 
